@@ -11,7 +11,6 @@ class UpdateUnitTest extends TestCase
     public function update_Test()
     {
         $fruta = new Fruta();
-        $fruta->id = '15';
         $fruta->nombre = "fruta15";
         $fruta->size = "pequeño";
         $fruta->save();
